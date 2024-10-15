@@ -1,0 +1,12 @@
+{
+    "name": "vue2",
+    "type": "module",
+    "devDependencies": {
+        "vue": "2",
+        "@vitejs/plugin-vue2": "latest"
+    },
+    "exports": {
+        ".": "./index.ts",
+        "./plugin": "./plugin.js"
+    }
+}

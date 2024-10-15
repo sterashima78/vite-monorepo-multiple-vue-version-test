@@ -1,0 +1,14 @@
+{
+    "name": "vue3",
+    "type": "module",
+    "dependencies": {
+        "vue": "3"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "latest"
+    },
+    "exports": {
+        ".": "./index.ts",
+        "./plugin": "./plugin.js"
+    }
+}

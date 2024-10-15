@@ -1,0 +1,14 @@
+{
+    "name": "app",
+    "type": "module",
+    "devDependencies": {
+        "vue2": "workspace:*",
+        "vue3": "workspace:*",
+        "vite": "latest",
+        "typescript": "latest"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    }
+}
